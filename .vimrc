@@ -1,3 +1,12 @@
+" Consider mapping system clipboard to leader using:
+" https://sheerun.net/2014/03/21/how-to-boost-your-vim-productivity/
+
+" Leader key is space
+let mapleader = "\<Space>"
+
+" Save file with leader-w
+:nnoremap <Leader>w :w<CR>
+
 " Syntax highlighting
 syntax on
 
