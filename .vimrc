@@ -39,3 +39,6 @@ set linebreak
 set nolist
 set textwidth=0
 set wrapmargin=0
+
+:let g:notes_directories = ['~/iCloud/vimnotes']
+:let g:notes_suffix = '.md'
